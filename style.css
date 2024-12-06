@@ -19,6 +19,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--font-page);
+    scroll-behavior: smooth;
 }
 
 /* buttons */
@@ -54,10 +55,13 @@
 }
 .select {
     cursor: pointer;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
 }
-.select option {
-    cursor: pointer;
-}
+
 .first-container {
     background-image: url(img/Mask.jpg);
     background-size: cover;
@@ -102,6 +106,10 @@
 .pages__link a {
     color: var(--color-text-second);
     text-decoration: none;
+    transition: 0.3s;
+}
+.pages__link a:hover {
+    color: var(--color-buttons);
 }
 .pages__link li {
     transition: 0.3s;
@@ -111,6 +119,7 @@
 }
 
 .header__btn {
+    display: flex;
     margin-left: 420px;
     margin-top: 15px;
 }
@@ -121,18 +130,17 @@
     padding: 10px;
     border-radius: 5px;
     margin-right: 20px;
+    align-items: center;
+    margin-top: 2px;
 }
-.select option {
-    background-color: #777777;
-    border: none;
-    outline: none;
-}
+
 .hdr__login {
     border: 1px solid var(--color-buttons);
     color: var(--color-text-second);
     padding: 10px 30px;
     background: transparent;
     cursor: pointer;
+    margin-right: 5px;
 }
 .hdr__signin {
     background-color: var(--color-buttons);
@@ -351,6 +359,7 @@
 .fourth__cards {
     display: flex;
     gap: 20px;
+    user-select: none;
 }
 .fourth__cards div h4 {
 }
@@ -595,6 +604,9 @@
     width: 271px;
     margin-bottom: 20px;
 }
+.eight__table div > span > h5 {
+    width: 100px;
+}
 .eight__table div:first-child {
     display: flex;
     justify-content: space-between;
@@ -609,7 +621,6 @@
 
 .eight__table div:nth-child(2) {
     padding: 20px 120px 20px 20px;
-
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;

@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Mining</title>
+        <title>Mining GT</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="media.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -25,13 +26,15 @@
 
                 <ul class="pages__link">
                     <li>
-                        <a href="#" class="header__links">Преимущества</a>
+                        <a href="#thrid" class="header__links">Преимущества</a>
                     </li>
                     <li>
-                        <a href="#" class="header__links">Статистика пула</a>
+                        <a href="#status" class="header__links"
+                            >Статистика пула</a
+                        >
                     </li>
                     <li>
-                        <a href="#" class="header__links">Команда</a>
+                        <a href="#team" class="header__links">Команда</a>
                     </li>
                     <li>
                         <a href="#" class="header__links">Партнёры</a>
@@ -39,12 +42,12 @@
                 </ul>
 
                 <div class="header__btn">
-                    <select class="select" name="language" id="language">
-                        <option value="">RU</option>
-                        <option value="">ENG</option>
-                        <option value="">UZB</option>
-                    </select>
-                    <button class="hdr__login first__btn">Регистрация</button>
+                    <div class="select">RU</div>
+                    <a href="register/register.html"
+                        ><button class="hdr__login first__btn">
+                            Регистрация
+                        </button></a
+                    >
                     <button class="hdr__signin second__btn">Войти</button>
                 </div>
             </header>
@@ -167,7 +170,7 @@
 
         <!-- 4-row -->
 
-        <div class="fourth__row">
+        <div id="thrid" class="fourth__row">
             <div class="fourth__container wrapper">
                 <div class="fourth__cards">
                     <div class="card first__card">
@@ -368,6 +371,7 @@
                     <div>
                         <h5>Показатель</h5>
                         <h5>GTeh</h5>
+
                         <h5>Ezil</h5>
                         <h5>Другие пулы</h5>
                     </div>
@@ -375,8 +379,12 @@
                     <div>
                         <h5>Доходность на 100 MH/s ETC + ZIL</h5>
                         <h5 class="eight__text__left">0,325 USDT</h5>
-                        <h5>0,324 USDT</h5>
-                        <h5>0,320 USDT</h5>
+                        <span>
+                            <h5>0,324 USDT</h5>
+                        </span>
+                        <span>
+                            <h5>0,320 USDT</h5>
+                        </span>
                     </div>
 
                     <div>
@@ -384,15 +392,23 @@
                         <h5 class="eight__text__left">
                             После подтверждения сетью
                         </h5>
-                        <h5>Через ~30 мин.</h5>
-                        <h5>Через ~60 мин.</h5>
+                        <span>
+                            <h5>Через ~30 мин.</h5>
+                        </span>
+                        <span>
+                            <h5>Через ~60 мин.</h5>
+                        </span>
                     </div>
 
                     <div>
                         <h5>Награда Zil для майнеров</h5>
                         <h5 class="eight__text__left">></h5>
-                        <h5><</h5>
-                        <h5><</h5>
+                        <span>
+                            <h5><</h5>
+                        </span>
+                        <span>
+                            <h5><</h5>
+                        </span>
                     </div>
 
                     <div>
@@ -400,8 +416,12 @@
                         <h5 class="eight__text__left span">
                             В течение 3 часов после участия в раунде
                         </h5>
-                        <h5>Через ~1 день</h5>
-                        <h5>Через ~2 дня</h5>
+                        <span>
+                            <h5>Через ~1 день</h5>
+                        </span>
+                        <span>
+                            <h5>Через ~2 дня</h5>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -411,7 +431,7 @@
 
         <div class="ninth__row">
             <div class="ninth__container wrapper">
-                <div class="ninth__header">
+                <div id="status" class="ninth__header">
                     <h1>Статистика пула</h1>
                     <button>СДАТЬ ОБОРУДОВАНИЕ</button>
                 </div>
@@ -448,7 +468,7 @@
         <!-- 10-row -->
 
         <div class="tenth__row">
-            <div class="tenth__container wrapper">
+            <div id="team" class="tenth__container wrapper">
                 <h1>КОМАНДА <span>ПУЛА</span></h1>
                 <h5>
                     Опытная команда инженеров. Занимаемсяпромышленным майнингом
@@ -547,7 +567,9 @@
                     </div>
 
                     <div class="footer__buttons">
-                        <button>РЕГИСТРАЦИЯ</button>
+                        <a href="register/register.html"
+                            ><button>РЕГИСТРАЦИЯ</button></a
+                        >
                         <button>ВОЙТИ</button>
                     </div>
                 </div>
@@ -581,5 +603,8 @@
                 </div>
             </div>
         </footer>
+        <!--  -->
+
+        <script src="main.js"></script>
     </body>
 </html>
