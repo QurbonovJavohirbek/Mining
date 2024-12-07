@@ -607,6 +607,7 @@
 .eight__table div > span > h5 {
     width: 100px;
 }
+
 .eight__table div:first-child {
     display: flex;
     justify-content: space-between;
@@ -767,6 +768,7 @@
     background-size: cover;
     width: 217px;
     height: 217px;
+    margin-bottom: 15px;
 }
 
 .ten-1 {
@@ -792,6 +794,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .t_info__flex {
     width: 216px;
 }
