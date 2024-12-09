@@ -22,6 +22,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: black;
+}
+
 /* buttons */
 .first__btn {
     user-select: none;
@@ -67,6 +71,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 1920px;
     height: 900px;
 }
 .wrapper {
@@ -321,6 +326,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1920px;
     height: 800px;
 }
 
@@ -397,6 +403,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    max-width: 1920px;
     height: 623px;
 }
 .fifth__container {
@@ -515,7 +522,10 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 1920px;
+    background-color: black;
 }
+
 .seventh__text {
     width: 453px;
     margin-left: auto;
@@ -766,7 +776,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 217px;
+    max-width: 217px;
     height: 217px;
     margin-bottom: 15px;
 }
@@ -817,6 +827,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 1017px;
+    max-width: 1920px;
 }
 .eleventh__container {
 }
