@@ -1,9 +1,9 @@
-@media (max-width: 393px) {
+@media (max-width: 394px) {
     * {
         /* outline: 1px solid red; */
     }
     body {
-        max-width: 392px;
+        max-width: 394px;
         background-color: white;
     }
 
