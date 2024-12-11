@@ -551,4 +551,7 @@
         width: 32px;
         height: 32px;
     }
+    .a__none {
+        text-decoration: none;
+    }
 }

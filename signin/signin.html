@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign-In Form</title>
+        <link rel="stylesheet" href="signin.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+            integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Login</h1>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    />
+                </div>
+
+                <div class="form-group password-toggle">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    />
+
+                    <button type="button" class="eye-btn active">
+                        <i class="eye active open-eye fa-regular fa-eye"></i>
+                    </button>
+                </div>
+
+                <div class="form-group">
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <a class="login-btn" href="/index.html"
+                    ><button type="submit" class="btn">Login</button>
+                </a>
+                <div class="divider">Or</div>
+
+                <div class="social-login">
+                    <button type="button">
+                        <i class="facebook fa-brands fa-facebook"></i>
+
+                        Login with Facebook
+                    </button>
+                    <button type="button">
+                        <i class="fa-brands fa-google"></i>
+
+                        Login with Google
+                    </button>
+                </div>
+
+                <p style="text-align: center; margin-top: 1rem">
+                    Don't have an account? <a href="#">Sign up</a>
+                </p>
+            </form>
+        </div>
+
+        <script>
+            const eyes = document.querySelector(".eyes");
+            const openEye = document.querySelector(".open-eye");
+            const closeEye = document.querySelector(".close-eye");
+            const eyeBtn = document.querySelector(".eye-btn");
+
+            eyeBtn.addEventListener("click", togglePassword);
+            function togglePassword(e) {
+                eyeBtn.classList.toggle("active");
+
+                eyeBtn.innerHTML = "";
+                if (eyeBtn.classList.contains("active")) {
+                    eyeBtn.innerHTML = `<i class="eye open-eye fa-regular fa-eye"></i>`;
+                } else {
+                    eyeBtn.innerHTML = `<i class="eye close-eye fa-regular fa-eye-slash"></i>`;
+                }
+                const passwordInput = document.getElementById("password");
+                const type =
+                    passwordInput.type === "password" ? "text" : "password";
+                passwordInput.type = type;
+            }
+        </script>
+    </body>
+</html>

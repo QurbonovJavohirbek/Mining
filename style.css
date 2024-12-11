@@ -713,6 +713,7 @@ body {
     border-radius: 5px;
     height: 60px;
     margin-top: 15px;
+    border: none;
 }
 .ninth__header button:active {
     scale: 0.98;
