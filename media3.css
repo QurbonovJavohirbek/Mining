@@ -1,103 +1,97 @@
-@media (max-width: 394px) {
+/* 413px */
+
+@media (max-width: 413px) {
     * {
         /* outline: 1px solid red; */
     }
     body {
-        max-width: 394px;
-        /* background-color: white; */
+        max-width: 413px;
+        background-color: white;
     }
-
-    /* buttons */
 
     .first-container {
-        max-width: 100%;
-        flex-wrap: wrap;
+        height: 800px;
+        width: 412px;
     }
     .wrapper {
-        width: calc(100% - 25px);
+        width: calc(100% - 15px);
+    }
+
+    .header__title {
+        padding-top: 15px;
     }
 
     .header__word {
-        width: 65px;
+        margin-left: 10px;
+        width: 60px;
     }
 
     .header__btn {
-        margin-left: 10px;
+        margin-left: 40px;
     }
 
     /* main */
     .words {
-        max-width: 100%;
-    }
-
-    .main__title {
-        margin-top: 120px;
-    }
-    .main__title h3 {
-        font-size: 40px;
-    }
-    .main__title span {
-        font-size: 35px;
         width: 100%;
     }
 
-    .main__word {
-        max-width: 100%;
+    .main__title {
+        margin-top: 130px;
     }
-    .main__word h3 {
-        max-width: 100%;
-    }
-    .main__hdr-title {
-        font-size: 25px;
+    .main__title h3 {
+        font-weight: 600;
+        font-size: 40px;
     }
 
-    .header__main {
-        padding-bottom: 25px;
+    .main__hdr-title {
+        font-size: 25.4px;
+        font-weight: 600;
     }
+
     .second__buttons {
+        display: flex;
         gap: 15px;
     }
 
-    .second__img {
-        max-width: 100%;
-    }
-
     .trible__buttons {
-        font-size: 10px;
-        font-weight: 600;
-        width: 350px;
+        font-size: 12px;
+        font-weight: 500;
     }
     /* tugadi */
 
     /* thrid row */
 
     .thrid__container {
-        /* padding-bottom: 60px; */
+        padding-bottom: 60px;
+    }
+    .thrid__sentence h1 {
+        font-size: 40px;
+        font-weight: 700;
     }
     .thrid__sentence h1 span {
-        font-size: 35px;
+        width: 100%;
+        font-size: 2.2rem;
+        font-weight: 700;
     }
 
-    .thrid__sentence h4 {
-        font-size: 14px;
-    }
     /* tugadi */
 
     /* fourth row */
 
     .h4__size {
         font-size: 18px;
+        font-weight: 500;
     }
 
     .fourth__cards {
         margin-left: 0px;
-        padding-top: 35px;
-        gap: 30px;
+
+        gap: 25px;
     }
 
     .card {
+        max-width: 100%;
         border-radius: 5px;
-        max-width: 365px;
     }
 
     /* tugadi */
@@ -105,37 +99,30 @@
     /* fifth row */
 
     .fifth__title h1 {
-        font-size: 45px;
+        font-size: 50px;
         font-weight: 600;
     }
-
-    .fifth__flex h5 {
-        max-width: 100%;
-        font-size: 16px;
+    .fifth__title h1 span {
+        font-weight: 600;
     }
 
     /* tugadi */
 
     /* sixth row */
 
-    .sixth__row {
-        height: 100%;
-        padding-bottom: 60px;
-    }
     .sixth__cards {
+        flex-direction: column;
         gap: 0px;
         padding-left: 0px;
     }
     .card2 {
-        margin-top: 60px;
-        max-width: 370px;
+        margin-top: 50px;
+        width: 100%;
     }
-    .card2:hover {
-        scale: 1;
-    }
+
     .card2 h4 {
         font-size: 22px;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     /* tugadi */
@@ -146,61 +133,48 @@
         max-width: 100%;
     }
     .seven__title {
-        font-size: 40px;
+        max-width: 100%;
+        font-size: 45px;
+        font-weight: 600;
     }
 
-    .seventh__flex h6 {
-        width: 100%;
-    }
     .seventh__flex h4 {
         color: #0de6be;
+        font-size: 1rem;
     }
     /* tugadi */
 
     /* ninth */
 
     .ninth__header h1 {
-        margin-top: 20px;
-        font-size: 25px;
-        font-weight: 500;
+        margin-top: 25px;
+        font-size: 24px;
     }
     .ninth__header button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 10px 15px;
         font-size: 14px;
-        font-weight: 600;
+        transition: 0.2s;
         font-size: 14px;
+        width: 180px;
         height: 60px;
-        width: 45%;
-
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .ninth__cards {
         max-width: 100%;
     }
-    .ninth__cards h6 {
-        font-size: 20px;
-        max-width: 90%;
-        height: 25px;
-        margin: 20px 0 10px 20px;
-    }
-    .ninth__cards h3 {
-        max-width: 90%;
-    }
+
     /* tugadi */
 
     /* 10 */
 
-    .tenth__container h1 {
-        font-size: 40.9px;
-    }
-    .tenth__flex {
-        flex-wrap: wrap;
-    }
     .tenth__column {
         margin-bottom: 20px;
         margin: 0 auto;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     /* tugadi */
@@ -208,28 +182,20 @@
     /* 11 */
 
     .eleventh__container h1 {
-        font-size: 30.5px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 60px;
     }
 
     .eleventh__container h6 {
-        max-width: 100%;
+        width: 100%;
     }
     .eleventh__container button {
         margin-bottom: 80px;
     }
     .eleventh__container h2 {
-        font-size: 35px;
-        max-width: 100%;
+        font-size: 26px;
     }
-
-    .eleventh__form input {
-        max-width: 100%;
-    }
-
-    .eleventh__form h6 {
-        width: 100%;
-    }
-    /* tugadi */
 
     /* footer */
 
