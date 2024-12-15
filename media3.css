@@ -16,6 +16,10 @@
     .wrapper {
         width: calc(100% - 15px);
     }
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
 
     .header__title {
         padding-top: 15px;
@@ -27,7 +31,7 @@
     }
 
     .header__btn {
-        margin-left: 40px;
+        margin-left: 10px;
     }
 
     /* main */
