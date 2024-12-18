@@ -1,0 +1,265 @@
+@media (max-width: 361px) {
+    * {
+        /* outline: 1px solid red; */
+    }
+    body {
+        max-width: 361px;
+        /* background-color: white; */
+    }
+
+    /* buttons */
+
+    .wrapper {
+        width: calc(100% - 15px);
+    }
+
+    .header__word {
+        display: none;
+    }
+
+    /* main */
+
+    .main__title {
+        margin-top: 110px;
+    }
+    .main__title h3 {
+        font-size: 35px;
+    }
+
+    .main__word {
+        max-width: 100%;
+    }
+    .main__word h3 {
+        max-width: 100%;
+    }
+    .main__hdr-title {
+        font-size: 23px;
+    }
+
+    /* tugadi */
+
+    /* thrid row */
+    /* padding-bottom: 60px; */
+
+    .thrid__sentence h1 span {
+        font-size: 33px;
+    }
+
+    .thrid__sentence h4 {
+        font-size: 13px;
+    }
+    /* tugadi */
+
+    /* fourth row */
+
+    .h4__size {
+        font-size: 15px;
+    }
+
+    .fourth__cards {
+        margin-left: 0px;
+        padding-top: 25px;
+        gap: 20px;
+    }
+
+    .card {
+        border-radius: 5px;
+        max-width: 100%;
+    }
+
+    /* tugadi */
+
+    /* fifth row */
+
+    .fifth__title h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .fifth__flex h5 {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    /* tugadi */
+
+    /* sixth row */
+
+    .sixth__row {
+        height: 100%;
+        padding-bottom: 60px;
+    }
+    .sixth__cards {
+        gap: 0px;
+        padding-left: 0px;
+    }
+    .card2 {
+        margin-top: 60px;
+        max-width: 370px;
+    }
+    .card2:hover {
+        scale: 1;
+    }
+    .card2 h4 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    /* tugadi */
+
+    /* seventh--row */
+
+    .seventh__text {
+        max-width: 100%;
+    }
+    .seven__title {
+        font-size: 40px;
+    }
+
+    .seventh__flex h6 {
+        width: 100%;
+    }
+    .seventh__flex h4 {
+        color: #0de6be;
+    }
+    /* tugadi */
+
+    /* ninth */
+
+    .ninth__header h1 {
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .ninth__header button {
+        padding: 10px 15px;
+        font-size: 14px;
+        font-weight: 600;
+        font-size: 14px;
+        height: 60px;
+        width: 45%;
+
+        margin-top: 20px;
+    }
+
+    .ninth__cards {
+        max-width: 100%;
+    }
+    .ninth__cards h6 {
+        font-size: 20px;
+        max-width: 90%;
+        height: 25px;
+        margin: 20px 0 10px 20px;
+    }
+    .ninth__cards h3 {
+        max-width: 90%;
+    }
+    /* tugadi */
+
+    /* 10 */
+
+    .tenth__container h1 {
+        font-size: 40.9px;
+    }
+    .tenth__flex {
+        flex-wrap: wrap;
+    }
+    .tenth__column {
+        margin-bottom: 20px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    /* tugadi */
+
+    /* 11 */
+
+    .eleventh__container h1 {
+        font-size: 30.5px;
+    }
+
+    .eleventh__container h6 {
+        max-width: 100%;
+    }
+    .eleventh__container button {
+        margin-bottom: 80px;
+    }
+    .eleventh__container h2 {
+        font-size: 35px;
+        max-width: 100%;
+    }
+
+    .eleventh__form input {
+        max-width: 100%;
+    }
+
+    .eleventh__form h6 {
+        width: 100%;
+    }
+    /* tugadi */
+
+    /* footer */
+
+    .footer__buttons {
+        gap: 10px;
+        margin-top: 5px;
+    }
+    .footer__title h6 {
+        display: none;
+    }
+
+    /* footer main */
+
+    .footer__main div {
+        gap: 10px;
+        max-width: 50%;
+        padding: 20px 20px 20px 10px;
+    }
+    .footer__main div:nth-child(2) {
+        gap: 20px;
+    }
+    .footer__main div h6 {
+        display: flex;
+
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+
+    .footer__main div h3 {
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    /* footer foot */
+
+    .footer__end-sentence {
+        display: flex;
+        gap: 10px;
+    }
+    .footer__end-sentence h5:nth-child(4) {
+        display: none;
+    }
+    .footer__end-sentence h5:nth-child(5) {
+        display: none;
+    }
+
+    .footer__end-sentence h5:nth-child(6) {
+        display: none;
+    }
+
+    .footer__end h6 {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .footer__icon {
+        background-image: url(img/footer__icon.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 32px;
+        height: 32px;
+    }
+}
